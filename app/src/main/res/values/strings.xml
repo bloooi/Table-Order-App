@@ -1,0 +1,230 @@
+<resources>
+    <string name="app_name">Table Order</string>
+
+    <string name="close">Close</string>
+    <string name="save">Save</string>
+    <string name="add">Add</string>
+    <string name="delete_all">Delete All</string>
+    <string name="delete">Delete</string>
+    <string name="total_price">Total</string>
+    <string name="order">Order</string>
+    <string name="payment">Payment</string>
+    <string name="discount">Discount</string>
+    <string name="max">Max</string>
+    <string name="options">Options</string>
+    <string name="edit">Edit</string>
+    <string name="copy">Copy</string>
+    <string name="cancel">Cancel</string>
+    <string name="none">None</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="continue_button">Continue</string>
+    <string name="no">No</string>
+    <string name="confirm">Confirm</string>
+    <string name="remove">Remove</string>
+    <string name="register">Register</string>
+    <string name="exit">Exit</string>
+    <string name="accept">Accept</string>
+    <string name="complete">Complete</string>
+    <string name="pay">Pay</string>
+    <string name="paid">Paid</string>
+    <string name="retry">Retry</string>
+
+    <string name="all_order">All Orders</string>
+    <string name="received">Received</string>
+    <string name="cooking">Cooking</string>
+    <string name="completed">Completed</string>
+    <string name="canceled">Canceled</string>
+
+    <string name="required">Required</string>
+    <string name="optional">Optional</string>
+
+    <string name="status_connected">Connected</string>
+    <string name="status_offline">Offline</string>
+
+    <string name="multilanguage_input">Multilanguage Input</string>
+    <string name="option_placeholder">Option Name</string>
+    <string name="option_default">Default</string>
+    <string name="option_amount_no_limit">No Limit</string>
+    <string name="option_amount_out_of_stock">Out of Stock</string>
+    <string name="option_amount_unit">units</string>
+    <string name="option_amount_infinite">Infinite</string>
+    <string name="order_item_total_items">Items</string>
+    <string name="order_action_received">Start Cooking</string>
+    <string name="order_action_confirmed">Complete Cooking</string>
+    <string name="table_product_more">More…</string>
+    <string name="category_add_button">New Category</string>
+
+    <string name="navigation_product">Product</string>
+    <string name="navigation_tables">Tables</string>
+    <string name="navigation_orders">Orders</string>
+    <string name="navigation_settings">Settings</string>
+    <string name="navigation_manage">Manage</string>
+
+    <string name="edit_product_button">Save Product</string>
+    <string name="edit_product_name">Product Name</string>
+    <string name="edit_product_color">Background Color</string>
+    <string name="edit_product_category">Category</string>
+    <string name="edit_product_category_placeholder">Select Category</string>
+    <string name="edit_product_price">Price</string>
+    <string name="edit_product_option_groups">Option Groups</string>
+    <string name="edit_product_out_of_stock">Out of Stock</string>
+    <string name="edit_product_tags">Tags</string>
+    <string name="add_option_group">New Option Group</string>
+
+    <string name="add_area_name">Area Name</string>
+    <string name="add_area_table_count">Table Count</string>
+
+    <string name="title_new_product">New Product</string>
+    <string name="title_edit_product">Edit Product</string>
+    <string name="title_option_group_management">Option Group Management</string>
+    <string name="title_add_area">Add Area</string>
+    <string name="title_category_management">Category Management</string>
+    <string name="title_membership">Membership</string>
+    <string name="title_edit_option_group">Edit Option Group</string>
+    <string name="title_login">Login to your account</string>
+    <string name="title_select_store">Select Business Store</string>
+    <string name="title_table_guest_count">Set Guest Count</string>
+    <string name="title_discount">Discount</string>
+
+    <string name="category_management_new_placement">Category Name</string>
+
+    <string name="membership_accumulate_stmap">Accumulate Stamp</string>
+    <string name="membership_use_stamp_1">Use</string>
+    <string name="membership_use_stamp_2">Stamps</string>
+    <string name="membership_no_memeber_found">No customers found</string>
+    <string name="membership_start_search">Search for customers name, phone, email or Instagram ID</string>
+    <string name="membership_add_customer">Add Customer</string>
+    <string name="membership_search_placeholder">Search by name, phone, email or Instagram ID</string>
+
+    <string name="edit_option_group_section_name">Option Group Name</string>
+    <string name="edit_option_group_section_option_items">Option items</string>
+    <string name="edit_option_group_section_required">Require Option Setting</string>
+    <string name="option_amount_placeholder">Max Infinite</string>
+    <string name="option_prefix">Max</string>
+    <string name="add_option_item">Add Option Item</string>
+
+    <string name="table_member_section_title">Table Members</string>
+    <string name="table_member_placeholder">Please enter the number of guests.</string>
+    <string name="table_member_sub_text">guests</string>
+    <string name="stamps">Stamps</string>
+
+    <string name="table_information_no_order_title">No Orders Yet</string>
+    <string name="table_information_no_order_message">Start adding orders by clicking the Order button below</string>
+
+    <string name="discount_management_new_placement">Discount Name</string>
+
+    <string name="total_discount_amount">Total Discount Amount</string>
+    <string name="total_discount_tag_name">Total</string>
+
+    <string name="total_products">Total Products :</string>
+    <string name="add_product">Add Product</string>
+    <string name="add_option">Add Option</string>
+    <string name="add_order">Add Order</string>
+    <string name="add_table">Add Table</string>
+    <string name="order_type">Order Type</string>
+
+    <string name="table_name">Table Name</string>
+    <string name="width_size">Width Size</string>
+    <string name="height_size">Height Size</string>
+
+    <string name="dine_in">Dine-in</string>
+    <string name="to_go">To go</string>
+
+    <string name="setting_section_business_management">Business Management</string>
+    <string name="setting_business_start_end">Business Start/End</string>
+    <string name="setting_section">Settings</string>
+    <string name="setting_language">Language</string>
+    <string name="setting_printer">Printer Settings</string>
+    <string name="setting_store">Store Settings</string>
+
+    <string name="setting_business_previous_close">Previous Closing Time</string>
+    <string name="setting_business_open_time">Start Time</string>
+    <string name="setting_business_open_button">Start Business</string>
+    <string name="setting_business_close_button">Close Business</string>
+    <string name="setting_business_never_open">Never opened before</string>
+    <string name="setting_printer_Order">Order Printer</string>
+    <string name="setting_language_pos_app">POS App Language</string>
+    <string name="setting_language_support">Support Languages</string>
+    <string name="setting_language_support_main">Main Support Language</string>
+    <string name="setting_language_select">Select Language</string>
+    <string name="setting_add_language_button">Add Language</string>
+    <string name="setting_store_stamp_reward">Stamp Reward</string>
+    <string name="setting_stamp_per">discount per</string>
+    <string name="setting_stamp">stamps</string>
+
+    <string name="error_screen_title">Oops! Failed to connect to server</string>
+    <string name="error_screen_body">The service is unavailable.\nPlease check your network connection and try again.</string>
+    <string name="error_close_app_title">Exit the app?</string>
+    <string name="error_close_app_body">The app will exit.\nTo use it again, please relaunch the app.</string>
+    <string name="error_close_confirm">Quit App</string>
+
+
+    <string name="subtotal">Subtotal</string>
+    <string name="tax">Tax</string>
+    <string name="tip">Tip</string>
+    <string name="split_payment">Split Payment</string>
+    <string name="card_cash_payment">Card/Cash Payment</string>
+    <string name="cash_payment">Cash Payment</string>
+    <string name="total_payment_amount">Total Payment Amount</string>
+
+    <string name="tip_title">Add a Tip</string>
+    <string name="no_tip">No Tip</string>
+
+    <string name="split_payment_sequence">Payment </string>
+    <string name="split_payment_guests">Guests</string>
+
+
+    <string name="login_email_placeholder">Enter your email</string>
+    <string name="login_password_placeholder">Enter your password</string>
+
+    <string name="err_validation_title">Login Failed</string>
+    <string name="err_validation_body">Please check your email and password and try again.</string>
+    <string name="err_default_title">An Error Occurred</string>
+    <string name="err_default_body">Something went wrong. If this continues, please contact support.</string>
+
+    <string name="tag_new">New Menu</string>
+    <string name="tag_recommend">Recommend Menu</string>
+
+    <string name="dialog_missing_translation_title">Missing Language Information</string>
+    <string name="dialog_missing_translation_body">Some languages other than the primary one haven’t been filled in.\nThis may cause product names to appear empty on table orders.\nDo you still want to continue?</string>
+
+    <string name="dialog_cancel_order_title">Cancel this order?</string>
+    <string name="dialog_cancel_order_body">Once canceled, this action cannot be undone.\nAre you sure you want to cancel?</string>
+
+    <string name="dialog_remove_category_title">Delete this category?</string>
+    <string name="dialog_remove_category_body">Once deleted, this action cannot be undone. \nAre you sure you want to delete?</string>
+
+    <string name="dialog_remove_category_with_products_title">This category contains products</string>
+    <string name="dialog_remove_category_with_products_body">This category contains products.\nAre you sure you want to delete?</string>
+
+    <string name="dialog_unavailable_pay_title">No Orders to Pay</string>
+    <string name="dialog_unavailable_pay_body">Please add items to your order before proceeding to payment.</string>
+
+    <string name="dialog_setting_table_not_finished_title">Exit without saving?</string>
+    <string name="dialog_setting_table_not_finished_body">Leaving now will discard your table settings.\nAre you sure you want to exit?</string>
+
+    <string name="dialog_payment_complete_title">Complete Payment</string>
+    <string name="dialog_payment_complete_body">Mark payment as complete? This action cannot be undone.</string>
+
+
+    <string name="dialog_delete_all_orders_title">Delete all orders?</string>
+    <string name="dialog_delete_all_orders_body">Deleting all orders cannot be undone.\nAre you sure you want to proceed?</string>
+
+
+
+
+    <string name="edit_option_group_type_selection">Selection Based</string>
+    <string name="edit_option_group_type_quantity">Quantity Based</string>
+    <string name="edit_option_max_amount_title">Maximum Display Count</string>
+
+    <string name="register_customer">Register Membership</string>
+    <string name="register_customer_name">Name</string>
+    <string name="register_customer_email">Email</string>
+    <string name="register_customer_instagram">Instagram</string>
+    <string name="register_customer_phone">Phone</string>
+    <string name="title_activity_table_setting">TableSettingActivity</string>
+    <string name="title_activity_error">ErrorActivity</string>
+</resources>

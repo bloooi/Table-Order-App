@@ -1,0 +1,95 @@
+[versions]
+agp = "8.10.0"
+kotlin = "2.1.0"
+coreKtx = "1.16.0"
+navigation = "2.8.9"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+lifecycle = "2.9.0"
+activityCompose = "1.10.1"
+composeBom = "2025.04.01"
+datetime = "0.6.2"
+room = "2.7.1"
+ksp = "2.1.0-1.0.29"
+ktor = "3.1.0"
+serializationJson = "1.8.0"
+hilt = "2.56.1"
+androidxHilt = "1.2.0"
+datastore = "1.1.6"
+serialization = "2.1.0"
+
+androidx-test     = "1.6.1"
+coroutines-test   = "1.10.1"
+arch-core-testing = "2.2.0"
+
+esspos-printer = "3.3.0"
+
+[libraries]
+androidx-core-ktx               = { group = "androidx.core",                name = "core-ktx",              version.ref = "coreKtx"             }
+junit                           = { group = "junit",                        name = "junit",                 version.ref = "junit"               }
+androidx-junit                  = { group = "androidx.test.ext",            name = "junit",                 version.ref = "junitVersion"        }
+androidx-espresso-core          = { group = "androidx.test.espresso",       name = "espresso-core",         version.ref = "espressoCore"        }
+androidx-activity-compose       = { group = "androidx.activity",            name = "activity-compose",      version.ref = "activityCompose"     }
+androidx-compose-bom            = { group = "androidx.compose",             name = "compose-bom",           version.ref = "composeBom"          }
+androidx-test-core        = { group = "androidx.test",       name = "core",                     version.ref = "androidx-test" }
+arch-core-testing         = { group = "androidx.arch.core",  name = "core-testing",             version.ref = "arch-core-testing" }
+kotlinx-coroutines-test   = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines-test" }
+
+androidx-lifecycle-runtime-ktx          = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx",       version.ref = "lifecycle" }
+androidx-lifecycle-viewmodel-compose    = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "lifecycle" }
+androidx-lifecycle-service              = { group = "androidx.lifecycle", name = "lifecycle-service",           version.ref = "lifecycle" }
+androidx-lifecycle-process              = { group = "androidx.lifecycle", name = "lifecycle-process",           version.ref = "lifecycle" }
+
+
+androidx-ui                     = { group = "androidx.compose.ui",          name = "ui"                 }
+androidx-ui-graphics            = { group = "androidx.compose.ui",          name = "ui-graphics"        }
+androidx-ui-tooling             = { group = "androidx.compose.ui",          name = "ui-tooling"         }
+androidx-ui-tooling-preview     = { group = "androidx.compose.ui",          name = "ui-tooling-preview" }
+androidx-ui-test-manifest       = { group = "androidx.compose.ui",          name = "ui-test-manifest"   }
+androidx-ui-test-junit4         = { group = "androidx.compose.ui",          name = "ui-test-junit4"     }
+
+androidx-navigation             = { group = "androidx.navigation",          name = "navigation-compose",    version.ref = "navigation"  }
+androidx-material3              = { group = "androidx.compose.material3",   name = "material3"                                          }
+kotlinx-datetime                = { group = "org.jetbrains.kotlinx",        name = "kotlinx-datetime",      version.ref = "datetime"    }
+
+# Room
+androidx-room-runtime           = { group = "androidx.room", name = "room-runtime",      version.ref = "room" }
+androidx-room-compiler          = { group = "androidx.room", name = "room-compiler",     version.ref = "room" }
+androidx-room-ktx               = { group = "androidx.room", name = "room-ktx",          version.ref = "room" }
+androidx-room-rxjava2           = { group = "androidx.room", name = "room-rxjava2",      version.ref = "room" }
+androidx-room-rxjava3           = { group = "androidx.room", name = "room-rxjava3",      version.ref = "room" }
+androidx-room-guava             = { group = "androidx.room", name = "room-guava",        version.ref = "room" }
+androidx-room-testing           = { group = "androidx.room", name = "room-testing",      version.ref = "room" }
+androidx-room-paging            = { group = "androidx.room", name = "room-paging",       version.ref = "room" }
+
+# ktor
+kotlinx-serialization-json      = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json",    version.ref = "serializationJson" }
+ktor-client-cio                 = { module = "io.ktor:ktor-client-cio",                             version.ref = "ktor" }
+ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation",             version.ref = "ktor" }
+ktor-client-core                = { module = "io.ktor:ktor-client-core",                            version.ref = "ktor" }
+ktor-client-json                = { module = "io.ktor:ktor-client-json",                            version.ref = "ktor" }
+ktor-client-logging-jvm         = { module = "io.ktor:ktor-client-logging-jvm",                     version.ref = "ktor" }
+ktor-client-serialization-jvm   = { module = "io.ktor:ktor-client-serialization-jvm",               version.ref = "ktor" }
+ktor-client-websocket           = { module = "io.ktor:ktor-client-websockets",                      version.ref = "ktor" }
+ktor-serialization-kotlinx-json = { module = "io.ktor:ktor-serialization-kotlinx-json",             version.ref = "ktor" }
+
+# Hilt
+hilt-android    = { group = "com.google.dagger", name = "hilt-android",             version.ref = "hilt" }
+hilt-compiler   = { group = "com.google.dagger", name = "hilt-android-compiler",    version.ref = "hilt" }
+hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "androidxHilt" }
+
+# DataStore
+androidx-datastore-preferences      = { group = "androidx.datastore", name = "datastore-preferences",       version.ref = "datastore" }
+androidx-datastore-preferences-core = { group = "androidx.datastore", name = "datastore-preferences-core",  version.ref = "datastore" }
+
+# ESC POS PRINTER
+dantsu-escposprinter = { group = "com.github.DantSu", name = "ESCPOS-ThermalPrinter-Android", version.ref = "esspos-printer" }
+
+[plugins]
+android-application             = { id = "com.android.application",                     version.ref = "agp"             }
+jetbrains-kotlin-android        = { id = "org.jetbrains.kotlin.android",                version.ref = "kotlin"          }
+compose-compiler                = { id = "org.jetbrains.kotlin.plugin.compose",         version.ref = "kotlin"          }
+ksp                             = { id = "com.google.devtools.ksp",                     version.ref = "ksp"             }
+hilt                            = { id = "com.google.dagger.hilt.android",              version.ref = "hilt"            }
+kotlin-serialization            = { id = "org.jetbrains.kotlin.plugin.serialization",   version.ref= "serialization"    }
