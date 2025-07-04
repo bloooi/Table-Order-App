@@ -20,6 +20,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "table"
+rootProject.name = "table_order"
 include(":app")
  
