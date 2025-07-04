@@ -121,85 +121,6 @@ fun DefaultDialog(
 }
 
 @Composable
-fun OptionAmountDialog(
-    id: String,
-    amount: Int,
-    onConfirm: (String, Int) -> Unit, // id, infinite, amount
-    negative: () -> Unit,
-) {
-    var isInfinite by remember { mutableStateOf(amount < 0) }
-    var amount by remember { mutableStateOf((if (amount < 0) 1 else amount).toString()) }
-    DefaultDialogSurface {
-        Column(
-            modifier = Modifier
-                .widthIn(max = 400.dp)
-                .padding(24.dp)
-        ) {
-            StyleText(
-                text = stringResource(R.string.edit_option_max_amount_title),
-                color = Ref.Neutral.c1000,
-                style = Ref.Head.s20,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(bottom = 16.dp),
-                textAlign = TextAlign.Center
-            )
-
-            Row(modifier = Modifier.fillMaxWidth()) {
-                Selector(
-                    style = Selector.optionItem,
-                    title = stringResource(id = R.string.option_amount_infinite),
-                    icon = painterResource(id = R.drawable.infinite),
-                    selected = isInfinite,
-                    onSelected = { isInfinite = !isInfinite },
-                    modifier = Modifier.padding(end = 12.dp)
-                )
-
-                InputField(
-                    type = InputFieldType.Number,
-                    text = amount,
-                    subText = stringResource(R.string.option_amount_unit),
-                    onTextChange = {
-                        if (it.isDigitsOnly()) {
-                            amount = it
-                        }
-                    },
-                    keyboardOptions = KeyboardOptions.Default.copy(
-                        keyboardType = KeyboardType.Number,
-                        imeAction = ImeAction.Done
-                    ),
-                    modifier = Modifier.weight(1f),
-                    enabled = !isInfinite,
-                    colors = disabledInputFieldColors()
-                )
-            }
-
-            Row(
-                modifier = Modifier.padding(top = 16.dp),
-                horizontalArrangement = Arrangement.spacedBy(12.dp)
-            ) {
-                NormalButton(
-                    onClick = negative,
-                    size = Btn.Medium,
-                    type = Btn.Outline.Primary,
-                    text = stringResource(R.string.cancel),
-                    modifier = Modifier.weight(1f)
-                )
-
-                NormalButton(
-                    onClick = { onConfirm(id, if (isInfinite) -1 else amount.toInt()) },
-                    size = Btn.Medium,
-                    type = Btn.Solid.Primary,
-                    text = stringResource(R.string.confirm),
-                    modifier = Modifier.weight(1f),
-                    enabled = if (isInfinite) true else amount.isNotEmpty()
-                )
-            }
-        }
-    }
-}
-
-@Composable
 fun RegisterMemberDialog(
     onAdd: (String, String, String, String, (Boolean) -> Unit) -> Unit,
 ) {
@@ -335,16 +256,6 @@ private fun PreviewAppDialog() {
 
             )
     }
-}
-@Preview
-@Composable
-private fun PreviewOptionMax() {
-    OptionAmountDialog(
-        id = "",
-        amount = -1,
-        onConfirm = { _, _ -> },
-        negative = {}
-    )
 }
 
 @Preview
